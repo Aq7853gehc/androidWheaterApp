@@ -7,6 +7,11 @@ android {
     namespace = "com.example.wheatherapp"
     compileSdk = 34
 
+    buildFeatures{
+        viewBinding = true
+    }
+
+
     defaultConfig {
         applicationId = "com.example.wheatherapp"
         minSdk = 24

@@ -183,6 +183,7 @@
                     app:srcCompat="@drawable/humidity" />
 
                 <TextView
+                    android:id="@+id/humidity"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/merriweathersans_medium"
@@ -216,6 +217,7 @@
                     app:srcCompat="@drawable/wind" />
 
                 <TextView
+                    android:id="@+id/windspeed"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/merriweathersans_medium"
@@ -249,6 +251,7 @@
                     app:srcCompat="@drawable/conditions" />
 
                 <TextView
+                    android:id="@+id/condition"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/merriweathersans_medium"
@@ -282,6 +285,7 @@
                     app:srcCompat="@drawable/sunrise" />
 
                 <TextView
+                    android:id="@+id/sunrise"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/merriweathersans_medium"
@@ -315,6 +319,7 @@
                     app:srcCompat="@drawable/sunset" />
 
                 <TextView
+                    android:id="@+id/sunset"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/merriweathersans_medium"
@@ -348,6 +353,7 @@
                     app:srcCompat="@drawable/sea" />
 
                 <TextView
+                    android:id="@+id/sea"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/merriweathersans_medium"
@@ -376,7 +382,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="4dp"
-        android:text="DESIGN  BY\nAquib Razi"
+        android:text="DESIGN  BY\nAquib n Ankush"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
